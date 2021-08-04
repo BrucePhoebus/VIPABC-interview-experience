@@ -22,6 +22,10 @@ module.exports = {
         link: '/Algorithm/'
       },
       {
+        text: '问题',
+        link: '/Question/'
+      },
+      {
         text: '前端规范',
         link: '/front/'
       },
@@ -59,6 +63,9 @@ module.exports = {
         '一些经验推荐',
         'markdown语法',
         'vuepress使用经验指南',
+      ],
+      '/Question/': [
+        '',
       ],
       '/Book/': [
         '',
