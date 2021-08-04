@@ -59,6 +59,8 @@ module.exports = {
       ],
       '/Question/': [
         '',
+        '关于VuePress使用的一些问题',
+        'Vue/'
       ],
       '/Book/': [
         '',
