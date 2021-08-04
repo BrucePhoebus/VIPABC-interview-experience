@@ -1,0 +1,29 @@
+{
+	// 自定义风格
+	"fileheader.configObj": {
+		"autoAdd": true, // 自动生成注释
+		"dateFormat": "YYYY-MM-DD HH:mm:ss", // 默认格式
+		"language": {
+			"md": {
+				"head": "---",
+				"middle": "",
+				"end": "---"
+			}
+		},
+		"specialOptions": {
+			"Date": "date",
+			"LastEditTime": "updated",
+			"LastEditors": "author",
+			"Description": "title",
+		},
+	},
+	// 头部设置
+	"fileheader.customMade": {
+		"Description": "",
+		"Date": "Do not edit", // 文件创建时间(不变)
+		"LastEditors": "zhengyekun", // 文件最后编辑者
+		"LastEditTime": "Do not edit", // 文件最后编辑时间
+		// "categories": "\r\n\t- 图片记录生活\n\t- 2020年\n\t- 3月 \n\t- 1日", // 文章目录
+		"tags": "\r\n\t- ", // 文章标签
+	}, // 头部注释
+}
