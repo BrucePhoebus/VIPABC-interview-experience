@@ -1,3 +1,11 @@
+---
+title: 
+date: 2021-08-04 22:46:37
+author: zhengyekun
+updated: 2021-08-04 23:12:44
+tags: 
+	- 
+---
 # 面经工作学习笔记
 
 ## 使用
@@ -10,5 +18,11 @@ npm install # yarn
 # 运行
 npm run start
 ```
+
+## 注意事项
+
+#### 关于注释
+
+建议使用VSCode，然后添加`koroFileHeader`，这样方便添加注释，`.vscode/settings.json`文件是本地化一些配置，每次需要修改就打开`.gitignore`这个文件许可
 
 > [运行后浏览器访问](http://localhost:8888)
