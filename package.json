@@ -1,0 +1,23 @@
+{
+  "name": "vipabc-interview-experience",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "GRG",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "start": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.8.2",
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "vuepress": "^1.8.2",
+    "watchpack": "^2.1.1"
+  },
+  "dependencies": {
+    "markdown-it-disable-url-encode": "^1.0.1",
+    "moment": "^2.29.1"
+  }
+}
