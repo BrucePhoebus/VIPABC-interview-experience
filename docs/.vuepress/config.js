@@ -56,6 +56,7 @@ module.exports = {
       ],
       '/help/': [
         '',
+        '一些经验推荐',
         'markdown语法',
         'vuepress使用经验指南',
       ],
