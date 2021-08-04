@@ -18,6 +18,10 @@ module.exports = {
         link: '/'
       },
       {
+        text: '算法',
+        link: '/Algorithm/'
+      },
+      {
         text: '前端规范',
         link: '/front/'
       },
@@ -36,6 +40,9 @@ module.exports = {
     ],
     // 为以下路由添加左侧边栏 
     sidebar: {
+      '/Algorithm/': [
+        '',
+      ],
       '/front/': [
         '',
         '编码规范',
@@ -51,6 +58,9 @@ module.exports = {
         '',
         'markdown语法',
         'vuepress使用经验指南',
+      ],
+      '/Book/': [
+        '',
       ]
     },
     sidebarDepth: 2, // 左侧导航显示的层级
