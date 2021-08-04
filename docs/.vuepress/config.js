@@ -26,12 +26,8 @@ module.exports = {
         link: '/Question/'
       },
       {
-        text: '前端规范',
-        link: '/front/'
-      },
-      {
-        text: 'git规范',
-        link: '/git/'
+        text: '规范',
+        link: '/Standard/'
       },
       {
         text: '相关帮助',
@@ -47,22 +43,19 @@ module.exports = {
       '/Algorithm/': [
         '',
       ],
-      '/front/': [
-        '',
-        '编码规范',
-        '注释规范',
-        'eslint规范',
-      ],
-      '/git/': [
-        '',
-        'git入门',
-        'git冲突合并规范',
-      ],
       '/help/': [
         '',
+        'git入门',
         '一些经验推荐',
         'markdown语法',
         'vuepress使用经验指南',
+      ],
+      '/Standard/': [
+        '',
+        '编码规范',
+        'git规范',
+        '注释规范',
+        'eslint规范',
       ],
       '/Question/': [
         '',
