@@ -18,6 +18,10 @@ module.exports = {
         link: '/'
       },
       {
+        text: '面经',
+        link: '/interview/'
+      },
+      {
         text: '算法',
         link: '/Algorithm/'
       },
@@ -61,6 +65,9 @@ module.exports = {
         '',
         '关于VuePress使用的一些问题',
         'Vue/'
+      ],
+      '/interview/': [
+        '',
       ],
       '/Book/': [
         '',
