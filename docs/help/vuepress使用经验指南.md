@@ -1,8 +1,8 @@
 ---
 title: vuepress使用经验指南
 date: 2021-07-14 22:01:06
-author: 郑烨锟
-updated: 2021-07-14 23:06:30
+author: zhengyekun
+updated: 2021-08-05 11:32:10
 tags: 	
  - vuepress
  - 指南
@@ -23,3 +23,7 @@ tags:
 不要使用空格，使用驼峰或-连接
 
 空格让markdown引用文件的时候出现问题
+
+#### tags内容空格与tab缩进问题
+
+这个标签的缩进只能空格，不能tab缩进，否则编译不通过

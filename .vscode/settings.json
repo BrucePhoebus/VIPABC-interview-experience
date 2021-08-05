@@ -24,6 +24,6 @@
 		"LastEditors": "zhengyekun", // 文件最后编辑者
 		"LastEditTime": "Do not edit", // 文件最后编辑时间
 		// "categories": "\r\n\t- 图片记录生活\n\t- 2020年\n\t- 3月 \n\t- 1日", // 文章目录
-		"tags": "\r\n\t- ", // 文章标签
+		"tags": "\r\n  - ", // 文章标签
 	}, // 头部注释
 }
