@@ -10,7 +10,6 @@ module.exports = {
   dest: './vipabc-interview-experience', // 设置输出目录
   port: 8888,
   head: [],
-  plugins: [],
   themeConfig: {
     // 添加导航栏
     nav: [{
@@ -68,6 +67,9 @@ module.exports = {
       ],
       '/interview/': [
         '',
+        '面试中的注意事项',
+        '面试中比较尖锐的问题',
+        '面试中难的技术问题',
       ],
       '/Book/': [
         '',
@@ -88,6 +90,13 @@ module.exports = {
     '@vuepress/active-header-links': {
       sidebarLinkSelector: '.sidebar-link',
       headerAnchorSelector: '.header-anchor'
+    },
+    "vuepress-plugin-code-copy": true,
+    "vuepress-plugin-nuggets-style-copy": {
+      copyText: "复制代码",
+      tip: {
+        content: "复制成功!",
+      },
     },
   },
   markdown: {
