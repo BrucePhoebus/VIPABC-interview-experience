@@ -21,6 +21,10 @@ module.exports = {
         link: '/interview/'
       },
       {
+        text: '分享',
+        link: '/Share/'
+      },
+      {
         text: '算法',
         link: '/Algorithm/'
       },
@@ -70,6 +74,10 @@ module.exports = {
         '面试中的注意事项',
         '面试中比较尖锐的问题',
         '面试中难的技术问题',
+      ],
+      '/Share/': [
+        '',
+        '关于前端团队和自我定位的一些想法',
       ],
       '/Book/': [
         '',
