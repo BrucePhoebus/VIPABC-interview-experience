@@ -53,7 +53,6 @@ module.exports = {
       '/help/': [
         '',
         'git入门',
-        '一些经验推荐',
         'markdown语法',
         'vuepress使用经验指南',
       ],
@@ -78,6 +77,8 @@ module.exports = {
       ],
       '/Share/': [
         '',
+        '一些经验推荐',
+        '一些书籍的推荐',
         '关于前端团队和自我定位的一些想法',
       ],
       '/Book/': [
