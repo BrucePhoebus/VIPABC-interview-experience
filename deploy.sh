@@ -3,7 +3,7 @@
  # @title: 部署配置文件
  # @date: 2021-08-08 22:29:58
  # @author: zhengyekun
- # @updated: 2021-08-08 23:59:15
+ # @updated: 2021-08-09 00:40:10
  # @tags: 
  #   - 部署
 ### 对于这个脚本，请在git bash执行，或干脆设置VSCode的控制台为git bash
@@ -23,6 +23,6 @@ git add -A
 git commit -m 'deploy'
 
 # 因为不同git库管理，强行覆盖分支，只能这样操作，而不能像是分支管理
-git push -f https://github.com/BrucePhoebus/VIPABC-interview-experience.git master:gh-pages
+git push -f https://github.com/BrucePhoebus/vipabc-interview-experience.git master:gh-pages
 
 cd -
