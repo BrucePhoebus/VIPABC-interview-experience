@@ -20,3 +20,5 @@ npm run start
 #### 关于注释
 
 建议使用VSCode，然后添加`koroFileHeader`，这样方便添加注释，`.vscode/settings.json`文件是本地化一些配置，每次需要修改就打开`.gitignore`对这个文件许可即可
+
+> 参考：[VuePress中文官网](https://vuepress.vuejs.org/zh/config/#description)

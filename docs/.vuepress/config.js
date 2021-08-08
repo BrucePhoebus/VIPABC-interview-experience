@@ -9,7 +9,12 @@ module.exports = {
   base: '/vipabc-interview-experience/', // 设置站点根路径
   dest: 'docs/.vuepress/dist', // 设置打包输出目录
   port: 8888,
-  head: [],
+  head: [
+    [
+      'link',
+      { rel: 'icon', href: '/logo.png' }
+    ]
+  ],
   themeConfig: {
     // 添加导航栏
     nav: [{

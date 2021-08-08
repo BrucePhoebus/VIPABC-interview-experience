@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/logo.png
+heroImage: /logo.png
 heroText: 前端净土
 tagline: 致力于体系化建设
 actionText: 快速上手 →
