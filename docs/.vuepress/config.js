@@ -6,8 +6,8 @@ const moment = require('moment');
 module.exports = {
   title: '面经笔记', // 设置网站标题
   description: '面经工作学习笔记',
-  base: '/', // 设置站点根路径
-  dest: './vipabc-interview-experience', // 设置输出目录
+  base: '/vipabc-interview-experience/', // 设置站点根路径
+  dest: 'docs/.vuepress/dist', // 设置打包输出目录
   port: 8888,
   head: [],
   themeConfig: {
@@ -80,6 +80,7 @@ module.exports = {
         '',
         '一些经验推荐',
         '一些书籍的推荐',
+        '关于github的pages配置部署总结',
         'git远程库和fork开源库等操作经验总结',
       ],
       '/Book/': [
